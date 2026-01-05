@@ -58,11 +58,5 @@ body {
     font-size: 32px;
   }
 
-  .section-title hr {
-    width: 180px;
-    height: 4px;
-    border: none;
-    margin: 16px auto 32px auto;
-    background-color: var(--secondary-color);
-  }
+  
 }
