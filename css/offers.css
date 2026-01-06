@@ -86,6 +86,12 @@
   }
 }
 
+@media screen and (min-width: 1356px) {
+  .card {
+    width: 588px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .card {
     width: 588px;
