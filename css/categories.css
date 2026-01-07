@@ -15,7 +15,7 @@
   margin-top: 64px;
 }
 
-.categories-cards a.card {
+.categories-cards .card {
   width: 312px;
   height: 220px;
   background-color: var(--background-secondary-color);
@@ -60,6 +60,7 @@
 
 @media screen and (min-width: 1440px) {
   .categories-cards .card {
-    width: 280px;
+    width: 282px;
+    height: 220px;
   }
 }

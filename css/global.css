@@ -83,7 +83,7 @@ section.hero {
   .section-title h2 {
     font-size: 32px;
   }
-}
+} 
 
 @media screen and (min-width: 1024px) {
   section {
@@ -95,7 +95,7 @@ section.hero {
 }
 
 @media screen and (min-width: 1440px) {
-  section {
+  section { 
     width: 1200px;
   }
-}
+} 
