@@ -76,35 +76,29 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .card {
+  .offers-cards .card {
     width: 420px;
     height: 308px;
   }
 
-  .card header h3 {
+  .offers-cards .card header h3 {
     font-size: 48px;
   }
 
-  .card header span {
+  .offers-cards .card header span {
     font-size: 40px;
   }
-}
-
-@media screen and (min-width: 1356px) {
-  .card {
-    width: 588px;
-  }
-}
+} 
 
 @media screen and (min-width: 1440px) {
-  .card {
+  .offers-cards .card {
     width: 588px;
   }
 }
 
 @media screen and (min-width: 1920px) {
   .offers-cards {
-    width: 1250px;
+    width: 648px;
     margin: 0 auto;
   }
 }
