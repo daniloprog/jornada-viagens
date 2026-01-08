@@ -40,11 +40,12 @@ body {
 
 section {
   width: 312px;
-  margin: 0 auto;
+  margin: 0 auto 88px;
 }
 
 section.hero {
   width: 100%;
+  margin: 0px;
 }
 
 .section-title h2 {
