@@ -76,7 +76,7 @@ section.hero {
   font-weight: var(--title-weight);
   background-color: var(--secondary-color);
   display: inline-block;
-  border-radius: 8px;
+  border-radius: 16px;
   text-decoration: none;
   text-align: center;
   line-height: 64px;

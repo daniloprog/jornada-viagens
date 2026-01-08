@@ -11,10 +11,6 @@
 }
 
 .destinations .item header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
   margin-bottom: 24px;
 }
 
@@ -38,8 +34,6 @@
 
 .destinations .button {
   width: 100%;
-  text-align: center;
-  margin-bottom: 40px;
 }
 
 .destinations .item.tokio .img-item {
