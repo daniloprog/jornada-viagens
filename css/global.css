@@ -48,6 +48,11 @@ section.hero {
   margin: 0px;
 }
 
+.section-title {
+  width: 280px;
+  margin: 0 auto 32px;
+}
+
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
@@ -64,15 +69,16 @@ section.hero {
 }
 
 .button {
-  display: inline-block;
-  width: 280px;
+  min-width: 280px;
   height: 64px;
   color: var(--text-secondary-color);
   font-size: 20px;
   font-weight: var(--title-weight);
   background-color: var(--secondary-color);
+  display: inline-block;
   border-radius: 8px;
   text-decoration: none;
+  text-align: center;
   line-height: 64px;
 }
 
@@ -81,10 +87,15 @@ section.hero {
     width: 648px;
   }
 
+  .section-title {
+    width: 100%;
+    margin: 0 auto 32px;
+  }
+
   .section-title h2 {
     font-size: 32px;
   }
-} 
+}
 
 @media screen and (min-width: 1024px) {
   section {
@@ -96,7 +107,7 @@ section.hero {
 }
 
 @media screen and (min-width: 1440px) {
-  section { 
+  section {
     width: 1200px;
   }
-} 
+}
