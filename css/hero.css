@@ -1,6 +1,10 @@
-.hero-img {
+.hero-img,
+.bottom-hero .image-hero {
   height: 400px;
   width: 100%;
+}
+
+.hero-img {
   background: url(../img/hero-mobile.jpg) no-repeat;
   background-size: cover;
 }
@@ -14,10 +18,25 @@
   line-height: 1.5;
 }
 
+.bottom-hero .image-hero {
+  background: url(../img/image-footer-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.bottom-hero {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
     background: url(../img/hero-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .bottom-hero .image-hero {
+    height: 400px;
+    background: url(../img/image-footer-tablet.jpg) no-repeat;
     background-size: cover;
   }
 
@@ -31,6 +50,12 @@
   .hero-img {
     height: 620px;
     background: url(../img/hero-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .bottom-hero .image-hero{
+    height: 600px;
+    background: url(../img/image-footer-desktop.jpg) no-repeat;
     background-size: cover;
   }
 
