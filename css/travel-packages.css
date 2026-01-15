@@ -1,0 +1,109 @@
+.travel-packages .hero-img {
+  width: 100%;
+  height: 460px;
+  background: url(../img/travel-package/Banner-Japão-hero.png) no-repeat;
+  background-size: cover;
+}
+
+.travel-packages .hero-content {
+  padding: 65px 25px 32px 25px;
+}
+
+.travel-packages .hero-content h1 {
+  width: 312px;
+  font-family: "Montserrat";
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  color: var(--text-secondary-color);
+}
+
+.travel-packages .hero-content hr {
+  width: 180px;
+  height: 4px;
+  border: none;
+  margin: 16px auto 32px 0;
+  background-color: var(--secondary-color);
+}
+
+.travel-packages .hero-content p {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--text-secondary-color);
+}
+
+.list-links li a.active {
+  text-decoration: underline;
+}
+
+.destinations .section-title h2 {
+  margin-top: 88px;
+}
+
+.destination-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.destinations .item header {
+  margin-bottom: 24px;
+}
+
+.destinations .item .img-item {
+  width: 100%;
+  height: 368px;
+}
+
+.destinations .item h3 {
+  margin: 24px 0;
+}
+
+.destinations .item p {
+  margin-bottom: 24px;
+}
+
+.destinations .button {
+  width: 100%;
+}
+
+.destinations .item.tokio .img-item {
+  background: url(../img/Tokyo-mobile.jpg);
+  background-size: cover;
+}
+
+.destinations .item.osaka .img-item {
+  background: url(../img/Osaka-mobile.jpg);
+  background-size: cover;
+}
+
+.payments .content-container .text-content h2 {
+  font-size: 40px;
+  margin-bottom: 24px;
+  font-weight: var(--title-weight);
+}
+
+.payments .image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  width: 100%;
+}
+
+.payments .image-gallery .image-first {
+  background: url(../img/travel-package/travel-japão1.jpg) no-repeat;
+  background-size: cover;
+}
+.payments .image-gallery .image-second {
+  background: url(../img/travel-package/travel-japão2.png) no-repeat;
+  background-size: cover;
+}
+.payments .image-gallery .image-thirty {
+  background: url(../img/travel-package/travel-japão3.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .image-gallery .colspan-2 {
+  grid-column: span 2;
+}
