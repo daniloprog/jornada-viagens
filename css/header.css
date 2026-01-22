@@ -96,4 +96,14 @@ nav {
   .logo .logo-mobile {
     display: none;
   }
+
+  .navigation-menu a:hover {
+    color: var(--button-primary-color);
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  header {
+    padding: 38px 160px;
+  }
 }
