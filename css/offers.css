@@ -1,6 +1,6 @@
 .card {
   color: var(--text-secondary-color);
-  background: black;
+  background: url(../img/offers/offers-japao-mobile.jpg);
   width: 312px;
   height: 288px;
   box-sizing: border-box;
@@ -13,6 +13,8 @@
   display: block;
   position: static;
   background: transparent;
+  padding: 0;
+  margin-bottom: 24px;
 }
 
 .card header p {
